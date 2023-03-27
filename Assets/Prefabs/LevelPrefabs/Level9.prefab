@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3539407875386527092
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3539407875386527082}
+  - component: {fileID: 3539407875386527083}
+  m_Layer: 0
+  m_Name: Level9
+  m_TagString: Untagged
+  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3539407875386527082
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3539407875386527092}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3539407875386527083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3539407875386527092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 484ead2310c797440bf8c19e9f55fb6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  leftMoves: 0
+  maxMoves: 15
+  goals:
+    goalsCount: 16000000210000002c000000
+    goalsObjects:
+    - {fileID: 7170841895630241594, guid: 822161dac11a4404c938c28dd2828098, type: 3}
+    - {fileID: 176625261526489208, guid: 11b029b5a81ed8e40b4e1f1a15a45927, type: 3}
+    - {fileID: 9130915528256352094, guid: 5b7f74289c51d5449b46bcba8528fd9f, type: 3}
+    defaultGrid: {fileID: 3764183691204856487, guid: 8fa49e2a01289544ea3abb4fdd49371b, type: 3}
+  row: 6
+  col: 6
+  gridPrefabs:
+  - {fileID: 176625261526489208, guid: 11b029b5a81ed8e40b4e1f1a15a45927, type: 3}
+  - {fileID: 9130915528256352094, guid: 5b7f74289c51d5449b46bcba8528fd9f, type: 3}
+  - {fileID: 7170841895630241594, guid: 822161dac11a4404c938c28dd2828098, type: 3}
+  - {fileID: 1045019676720276187, guid: d382a36897ac4024c80f75277e376ebf, type: 3}
+  - {fileID: 8410521866688868424, guid: 4d3629458a46d19429059a1fe338ae2d, type: 3}
+  explosionPrefabs:
+  - {fileID: 1940008134688730, guid: 6b573e0cc051d6849aba90ea8131e486, type: 3}
+  - {fileID: 1053647077261932, guid: df190b92ca4251a4e82cbf1ed75c726e, type: 3}
+  - {fileID: 1573447895519926, guid: f2bb6fbe63bfed24f8ee027776bfed73, type: 3}
+  - {fileID: 1641374423578230, guid: 43ee247cd05448148b23b129e68abb51, type: 3}
